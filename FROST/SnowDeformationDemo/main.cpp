@@ -1,10 +1,11 @@
-#include <Core/Devices/Graphics/WindowManager.h>
+#include <HAL/Core/WindowController.h>
 
-using namespace Frost::HAL::Core;
+using namespace Frost;
 
 int main(int argc, char** argv)
 {
-	WindowManager windowManager;
+	HAL::Core::WindowController windowManager;
+	windowManager.Init();
 
 	return 0;
 }

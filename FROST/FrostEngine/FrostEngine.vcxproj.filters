@@ -13,10 +13,16 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Fichiers d%27en-tête\HAL">
+      <UniqueIdentifier>{f9c8d6fc-f7e4-46b3-b544-b0fe4e89d9f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\HAL\Core">
+      <UniqueIdentifier>{06395861-f570-426e-9bf7-5b9461313c91}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\main.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
+    <ClInclude Include="Includes\Core\Devices\Graphics\WindowController.h">
+      <Filter>Fichiers d%27en-tête\HAL\Core</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
